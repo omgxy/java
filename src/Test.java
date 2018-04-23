@@ -1,3 +1,6 @@
+import java.sql.Date;
+import java.util.Date;
+
 /**
  * 
  */
@@ -15,6 +18,10 @@ public class Test {
 		// TODO Auto-generated method stub
 		System.out.println("Demo");
 		System.out.println("Hello");
+		
+		//Date date = new Date();
+		Date date = new Date(0);
+		System.out.println(date.toString());
 		
 	}
 
